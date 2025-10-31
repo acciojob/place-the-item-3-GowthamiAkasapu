@@ -1,2 +1,18 @@
+/* Flexbox styling for holder */
+.holder {
+  display: flex;                /* Enables flexbox */
+  flex-direction: row;          /* Arrange items in a row */
+  justify-content: space-evenly;/* Evenly space items horizontally */
+  flex-wrap: wrap;              /* Move items to next row if needed */
+  gap: 10px;                    /* Optional spacing between items */
+}
 
-/* Your CSS Code here. */
+/* Style for individual items */
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
